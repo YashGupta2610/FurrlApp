@@ -32,7 +32,10 @@ class ViewFrameController extends GetxController{
     frameList = [];
     imgList.forEach((element) {
       frameList.add(
-          Positioned(top: element.yPosition,
+          AnimatedPositioned(
+            duration: Duration(milliseconds: 900),
+            curve: Curves.easeIn,
+            top: element.yPosition,
             left: element.xPosition,child: Transform.scale(
               scale: element.scale,
               child: Image.asset(element.img)),

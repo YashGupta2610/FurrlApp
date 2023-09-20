@@ -24,7 +24,9 @@ class EditingGrid extends StatelessWidget {
       GetBuilder<EditFrameController>(
           builder: (ctrl) {
             int index = ctrl.imgEditList.indexOf(element);
-            return Positioned(top: element.yPosition,
+            return Positioned(
+
+              top: element.yPosition,
               left: element.xPosition,child:
               GestureDetector(
                   trackpadScrollCausesScale: true,

@@ -9,7 +9,7 @@ class AppRoutes {
   //Declaring a list of Named Routes for the app to navigate.
   static final routes = [
     GetPage(
-        name: '/', page: () => const FramesPage(), transition: Transition.fade),
+        name: '/', page: () => const ViewFramePage(), transition: Transition.fade),
     GetPage(
         name: '/editFrame',
         page: () => const EditFramePage(),

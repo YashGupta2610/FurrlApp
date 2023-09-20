@@ -8,8 +8,8 @@ import 'package:get/get.dart';
 
 import 'package:flutter/material.dart';
 
-class FramesPage extends StatelessWidget {
-  const FramesPage({super.key});
+class ViewFramePage extends StatelessWidget {
+  const ViewFramePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +45,7 @@ class FramesPage extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: frame(context),
+                    child: frame(context), //Function call
                   ),
                   Container(
                     padding: const EdgeInsets.all(8),
