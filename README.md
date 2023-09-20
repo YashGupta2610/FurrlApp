@@ -1,6 +1,9 @@
-# flurr_app
+![image](https://github.com/YashGupta2610/FurrlApp/assets/97898015/40584eaa-d6b4-456f-b826-9f0f18b05968)# flurr_app
 
-A new Flutter project.
+Flutter application for Furrl Assignment
+
+![image](https://github.com/YashGupta2610/FurrlApp/assets/97898015/90e995bc-75a4-422b-a6c6-0a4a2e416596)
+
 
 ## Getting Started
 
