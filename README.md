@@ -1,4 +1,3 @@
-![image](https://github.com/YashGupta2610/FurrlApp/assets/97898015/40584eaa-d6b4-456f-b826-9f0f18b05968)# flurr_app
 
 Flutter application for Furrl Assignment
 
